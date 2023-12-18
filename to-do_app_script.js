@@ -1,5 +1,6 @@
 // =======  To-Do App  ========================
 // =======  To-Do App Javascript  =============
+// ============================================
 
 // Code for pressing "Enter" key
 // Get the input field
@@ -77,4 +78,9 @@ function newElement() {
       div.style.display = 'none';
     };
   }
+}
+
+function darkMode() {
+  var element = document.body;
+  element.classList.toggle('dark-mode');
 }

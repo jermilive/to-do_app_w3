@@ -130,3 +130,8 @@ input {
 .addBtn:hover {
   background-color: #bbb;
 }
+
+.dark-mode {
+  background-color: black;
+  /* color: black; */
+}

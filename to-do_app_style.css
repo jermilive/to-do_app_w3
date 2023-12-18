@@ -1,7 +1,11 @@
+/* ============================================ */
+/* ================  To-Do App CSS  ================= */
+/* ============================================ */
+
 body {
   margin: 0;
   min-width: 250px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Include the padding and border in an element's total width and height */
@@ -30,11 +34,11 @@ ul li {
   font-size: 18px;
   transition: 0.2s;
 
-/* make the list items unselectable */
+  /* make the list items unselectable */
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none; 
+  user-select: none;
 }
 
 /* Set all odd list items to a different color (zebra-stripes) */
@@ -56,7 +60,7 @@ ul li.checked {
 
 /* Add a "checked" mark when clicked on */
 ul li.checked::before {
-  content: "";
+  content: '';
   position: absolute;
   border-color: #fff;
   border-style: solid;
@@ -93,7 +97,7 @@ ul li.checked::before {
 
 /* Clear floats after the header */
 .header:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
